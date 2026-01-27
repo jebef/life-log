@@ -14,39 +14,24 @@
 html,
 body {
   width: 100vw;
-  min-height: 100vh;
   background-color: white;
   font-family: var(--font-name);
   font-size: var(--font-size);
   line-height: var(--line-height);
   overflow-x: hidden;
-
   cursor: crosshair;
 }
 
 .sizer {
   max-width: var(--max-width);
-  height: 100%;
   margin: 0 auto;
 }
 
 .main {
   width: round(down, 100%, 1ch);
-  min-height: 100%;
+  min-height: 100vh;
   border-left: var(--border-size) solid black;
   padding-bottom: calc(3 * var(--cell-height));
-}
-
-.grid {
-  display: grid; 
-  position: absolute;
-  top: 2ch;
-  left: 0;
-  grid-template-rows: repeat(auto-fill, var(--cell-height));
-  grid-template-columns: repeat(auto-fill, 1ch);
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
 }
 
 .header {
@@ -69,6 +54,18 @@ body {
   width: calc(100% + var(--border-size));
   position: relative;
   padding: 2ch;
+}
+
+.grid {
+  display: grid; 
+  position: absolute;
+  top: 2ch;
+  left: 0;
+  grid-template-rows: repeat(auto-fill, var(--cell-height));
+  grid-template-columns: repeat(auto-fill, 1ch);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 .date {
@@ -129,7 +126,7 @@ hr p img {
   }
 
   hr {
-    width: 110%;
+    width: 100vw;
   }
 }
 
