@@ -1,7 +1,7 @@
 :root {
   --font-name: 'IBM Plex Mono', monospace;
   --font-size: 16px;
-  --line-height: 1.25;
+  --line-height: 1.5;
   --cell-height: calc(var(--font-size) * var(--line-height));
   --max-width: 900px;
   --border-size: 1px;
@@ -14,7 +14,7 @@
 html,
 body {
   width: 100vw;
-  background-color: white;
+  background-color:white;
   font-family: var(--font-name);
   font-size: var(--font-size);
   line-height: var(--line-height);
@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   padding-bottom: var(--cell-height);
+  text-align: justify;
 }
 
 img {
