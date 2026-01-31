@@ -6,7 +6,6 @@ author: Wyatt Jebef
 
 # Boom City - A Year In Review 
 ---
-
 Halloween 2024 I respond to a Craigslist ad for a construction laborer opening. Roughly a week later, I'm 
 the newest employee at Boom City Builders - a local residential contractor owned and opertated by Bay native Garritt Blanz.
 
@@ -55,3 +54,7 @@ each board is perfectly sized, every screw layout uniform and square. Days like 
 
 # 44th 
 ---
+![Full](media/44th/full.webp)
+![Corner](media/44th/corner.webp)
+![Side](media/44th/side.webp)
+![Tacos!](media/44th/tacos.webp)
