@@ -1,7 +1,8 @@
 :root {
   --font-name: 'IBM Plex Mono', monospace;
   --font-size: 16px;
-  --line-height: 1.5;
+  --line-height: 1.25;
+  --cell-width: 1ch;
   --cell-height: calc(var(--font-size) * var(--line-height));
   --max-width: 900px;
   --border-size: 1px;
@@ -62,7 +63,7 @@ body {
   top: 2ch;
   left: 0;
   grid-template-rows: repeat(auto-fill, var(--cell-height));
-  grid-template-columns: repeat(auto-fill, 1ch);
+  grid-template-columns: repeat(auto-fill, var(--cell-width));
   width: 100%;
   height: 100%;
   pointer-events: none;
@@ -82,11 +83,7 @@ p {
   text-align: justify;
 }
 
-img {
-  max-height: round(down, 90vh, var(--cell-height));
-}
-
-.img-wrapper {
+p img {
   padding: var(--cell-height) 0;
 }
 

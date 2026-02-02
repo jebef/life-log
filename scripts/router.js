@@ -11,6 +11,19 @@ const routes = {
   '/posts/:id': renderPost
 };
 
+function getGridDims() {
+  const probe = document.createElement("div");
+  probe.style.visibility = "hidden";
+  probe.style.width = "var(--cell-width)";
+  probe.style.height = "var(--cell-height)";
+  contentRef.appendChild(probe);
+  const { width, height } = probe.getBoundingClientRect();
+  probe.remove();
+
+  console.log(`CW: ${width}, CH: ${height}\n`);
+  return { width, height };
+}
+
 /**
  * Fetch the post index 
  * 
@@ -85,10 +98,10 @@ function rewritePaths(markdown, postId) {
     (match, prefix, path, suffix) => {
       // skip absolute URLs, hashes, and protocol-relative URLs
       if (path.startsWith('/') ||
-          path.startsWith('#') ||
-          path.startsWith('http://') ||
-          path.startsWith('https://') ||
-          path.startsWith('//')) {
+        path.startsWith('#') ||
+        path.startsWith('http://') ||
+        path.startsWith('https://') ||
+        path.startsWith('//')) {
         return match;
       }
       return prefix + basePath + path + suffix;
@@ -153,12 +166,29 @@ async function renderPost(id) {
 }
 
 /**
+ * Snap images to grid 
+ */
+function snapImages() {
+  const { width: cw, height: ch } = getGridDims();
+  document.querySelectorAll(".content img").forEach(img =>
+    img.onload = () => {
+      img.style.width = Math.round(img.width / cw) * cw + "px";
+      img.style.height = Math.round(img.height / ch) * ch + "px";
+    }
+  );
+  console.log(`Snapped! CW: ${cw}, CH: ${ch}`);
+}
+
+/**
  * Render grid overlay
  */
 function renderGrid() {
   const grid = document.createElement("div");
   grid.className = "grid";
   contentRef.appendChild(grid);
+
+  snapImages();
+  
   return;
 }
 
