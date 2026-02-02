@@ -86,9 +86,10 @@ img {
   max-height: round(down, 90vh, var(--cell-height));
 }
 
-p img {
+.img-wrapper {
   padding: var(--cell-height) 0;
 }
+
 
 hr {
   all: unset;
