@@ -14,12 +14,6 @@ has been spent at Garritt's home in Bernal Heights where we're in the process of
 
 This post is intended to catalog images and stories from 2025's many work days.
 
-# Precita 
----
-![Garritt calmly perched](media/precita/garritt-wall.jpeg)
-![Action Figure](media/precita/pose-1.JPG)
-![Rudy](media/precita/rudy.jpeg)
-
 # Guerrero
 ---
 A few minute walk from my spot on Valencia, Guerrero was the first job I was given significant ownership of. My initial visit was 
@@ -30,7 +24,8 @@ work for.
 When I joined on, much of the structural work had already been done. Eventually Garritt and I would replace the uppermost sections 
 of two of the original 6x6 posts, as they were weathered and beginning to rot, but most of my time was spent framing out the stairs, 
 landings, and handrails. 
-![Crafting Table](media/guerrero/workbench.jpeg)
+
+![Crafting Table](media/guerrero/workbench.jpeg) 
 ![Stairs (Full)](media/guerrero/full.jpeg)
 ![Garritt's Boot](media/guerrero/boot.jpeg)
 
@@ -42,7 +37,8 @@ Throughout the year I spent more than a few days at York. Mold investigations, f
 a full roof replacement. I've had the privelege of working on a number of beautiful San Franciscan homes, 
 1306 York St stands apart from the rest. 
 
-![Jungle](media/york/jungle.JPG)
+![Jungle](media/york/jungle.JPG) 
+
 ![Warped Selfie](media/york/warp-selfie.JPG)
 
 # Fence  
@@ -57,6 +53,7 @@ each board is perfectly sized, every screw layout uniform and square. Days like 
 ## Before 
 ---
 ![Before Full](media/york/before-full.jpeg)
+
 ![Before Side](media/york/before-side.jpeg)
 
 ## After 
@@ -70,3 +67,9 @@ each board is perfectly sized, every screw layout uniform and square. Days like 
 ![Corner](media/44th/corner.webp)
 ![Side](media/44th/side.webp)
 ![Tacos!](media/44th/tacos.webp)
+
+# Precita 
+---
+![Garritt calmly perched](media/precita/garritt-wall.jpeg)
+![Action Figure](media/precita/pose-1.JPG)
+![Rudy](media/precita/rudy.jpeg)

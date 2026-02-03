@@ -1,11 +1,13 @@
 :root {
   --font-name: 'IBM Plex Mono', monospace;
   --font-size: 16px;
-  --line-height: 1.25;
+  --line-height: 1.5;
   --cell-width: 1ch;
   --cell-height: calc(var(--font-size) * var(--line-height));
   --max-width: 900px;
   --border-size: 1px;
+
+  --img-max-height: round(down, 90vh, var(--cell-height));
 
   --ease-in: .3s;
   --ease-out: .9s;
@@ -79,12 +81,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  min-height: 0;
   padding-bottom: var(--cell-height);
   text-align: justify;
 }
 
-p img {
-  padding: var(--cell-height) 0;
+
+/*--- IMAGES ---*/
+img {
+  max-height: var(--img-max-height);
+}
+
+p:has(.img-wrap) {
+  font-size: 0;
+  line-height: 0;
+}
+
+.img-wrap {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-wrap__cap {
+  display: block;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+.img-wrap__cap::after {
+  content: attr(data-cap);
+  bottom: 0;
+  right: 0;
 }
 
 
@@ -101,6 +129,14 @@ hr {
 ul {
   all: unset;
   list-style-type: none;
+}
+
+ul:has(li img) {
+  max-width: 100%;
+  max-height: var(--img-max-height);
+  display: flex;
+  gap: 1ch;
+  padding: var(--cell-height) 0;
 }
 
 a {
