@@ -28,9 +28,7 @@ landings, and handrails.
 ![Crafting Table](media/guerrero/workbench.jpeg) 
 
 - ![Garritt's Boot](media/guerrero/boot.jpeg)
-- ![Stairs (Full) ljasfd hjasdjfh ajk sdfjhbasdjhfb ajhadsf jkas ](media/guerrero/full.jpeg)
-
-
+- ![Stairs](media/guerrero/full.jpeg)
 
 # York 
 ---
@@ -38,7 +36,7 @@ Throughout the year I spent more than a few days at York. Mold investigations, f
 a full roof replacement. I've had the privelege of working on a number of beautiful San Franciscan homes, 
 1306 York St stands apart from the rest. 
 
-![Jungle a reallty long capot nis that sis gonna over flow](media/york/jungle.JPG) 
+![Backyard Jungle](media/york/jungle.JPG) 
 
 ![Warped Selfie](media/york/warp-selfie.JPG)
 
@@ -53,15 +51,13 @@ each board is perfectly sized, every screw layout uniform and square. Days like 
 
 ## Before 
 ---
-![Before Full](media/york/before-full.jpeg)
-
-![Before Side](media/york/before-side.jpeg)
+- ![](media/york/before-full.jpeg)
+- ![](media/york/before-side.jpeg)
 
 ## After 
 ---
-![After Full](media/york/after-full.jpeg)
-
-![After Side](media/york/after-side.jpeg)
+- ![](media/york/after-full.jpeg)
+- ![](media/york/after-side.jpeg)
 
 # 44th 
 ---
@@ -74,7 +70,7 @@ each board is perfectly sized, every screw layout uniform and square. Days like 
 
 # Precita 
 ---
-![Garritt calmly perched](media/precita/garritt-wall.jpeg)
+![Garritt, Perched](media/precita/garritt-wall.jpeg)
 
 ![Action Figure](media/precita/pose-1.JPG)
 
