@@ -166,17 +166,22 @@ function getGridDims() {
 /**
  * Snap .img-wrap containers to grid
  */
-function snapImages() {
+export function snapImages() {
   const { width: cw, height: ch } = getGridDims();
   const clips = document.querySelectorAll(".content .img-wrap__clip");
   let pending = 0;
 
   const sizeCaptions = () => {
     document.querySelectorAll(".content .img-wrap__cap").forEach(cap => {
-      const p = cap.closest("p");
-      if (!p) return;
-      const capH = cap.getBoundingClientRect().height;
-      p.style.paddingBottom = Math.ceil((capH - 1) / ch) * ch + ch + "px";
+      let target = cap.closest("p");
+      if (!target) target = cap.closest("ul");
+      if (!target) return;
+
+      const targetCaps = [...target.querySelectorAll(".img-wrap__cap")];
+      const maxCapH = Math.max(...(targetCaps.map(c => c.getBoundingClientRect().height)));
+
+      target.style.paddingBottom = Math.ceil((maxCapH - 1) / ch) * ch + ch + "px";
+
     });
   };
 
@@ -211,7 +216,6 @@ export function renderGrid() {
   const grid = document.createElement("div");
   grid.className = "grid";
   contentRef.appendChild(grid);
-  snapImages();
 }
 
 let resizeTimer;

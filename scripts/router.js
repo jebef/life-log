@@ -1,4 +1,4 @@
-import { renderIndex, renderPost, renderGrid } from "./render.js";
+import { renderIndex, renderPost, renderGrid, snapImages } from "./render.js";
 
 const routes = {
   '/': renderIndex,
@@ -29,7 +29,8 @@ async function navigate(path) {
   const handler = matchRoute(path);
   if (handler) {
     await handler();
-    renderGrid();
+    snapImages();
+    //renderGrid();
   } else {
     const contentRef = document.querySelector(".content");
     if (contentRef) contentRef.innerHTML = "<p>Page not found.</p>";

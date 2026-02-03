@@ -27,9 +27,8 @@ landings, and handrails.
 
 ![Crafting Table](media/guerrero/workbench.jpeg) 
 
-![Stairs (Full) ljasfd hjasdjfh ajk sdfjhbasdjhfb ajhadsf jkas ](media/guerrero/full.jpeg)
-
-![Garritt's Boot](media/guerrero/boot.jpeg)
+- ![Garritt's Boot](media/guerrero/boot.jpeg)
+- ![Stairs (Full) ljasfd hjasdjfh ajk sdfjhbasdjhfb ajhadsf jkas ](media/guerrero/full.jpeg)
 
 
 
@@ -66,9 +65,8 @@ each board is perfectly sized, every screw layout uniform and square. Days like 
 
 # 44th 
 ---
-![Full](media/44th/full.webp)
-
-![Corner](media/44th/corner.webp)
+- ![Full](media/44th/full.webp)
+- ![Corner](media/44th/corner.webp)
 
 ![Side](media/44th/side.webp)
 
