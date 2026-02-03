@@ -26,7 +26,9 @@ of two of the original 6x6 posts, as they were weathered and beginning to rot, b
 landings, and handrails. 
 
 ![Crafting Table](media/guerrero/workbench.jpeg) 
-![Stairs (Full)](media/guerrero/full.jpeg)
+
+![Stairs (Full) ljasfd hjasdjfh ajk sdfjhbasdjhfb ajhadsf jkas ](media/guerrero/full.jpeg)
+
 ![Garritt's Boot](media/guerrero/boot.jpeg)
 
 
@@ -37,7 +39,7 @@ Throughout the year I spent more than a few days at York. Mold investigations, f
 a full roof replacement. I've had the privelege of working on a number of beautiful San Franciscan homes, 
 1306 York St stands apart from the rest. 
 
-![Jungle](media/york/jungle.JPG) 
+![Jungle a reallty long capot nis that sis gonna over flow](media/york/jungle.JPG) 
 
 ![Warped Selfie](media/york/warp-selfie.JPG)
 
@@ -59,17 +61,23 @@ each board is perfectly sized, every screw layout uniform and square. Days like 
 ## After 
 ---
 ![After Full](media/york/after-full.jpeg)
+
 ![After Side](media/york/after-side.jpeg)
 
 # 44th 
 ---
 ![Full](media/44th/full.webp)
+
 ![Corner](media/44th/corner.webp)
+
 ![Side](media/44th/side.webp)
+
 ![Tacos!](media/44th/tacos.webp)
 
 # Precita 
 ---
 ![Garritt calmly perched](media/precita/garritt-wall.jpeg)
+
 ![Action Figure](media/precita/pose-1.JPG)
+
 ![Rudy](media/precita/rudy.jpeg)

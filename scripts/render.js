@@ -168,22 +168,40 @@ function getGridDims() {
  */
 function snapImages() {
   const { width: cw, height: ch } = getGridDims();
-  document.querySelectorAll(".content .img-wrap").forEach(wrap => {
-    const img = wrap.querySelector("img");
+  const clips = document.querySelectorAll(".content .img-wrap__clip");
+  let pending = 0;
+
+  const sizeCaptions = () => {
+    document.querySelectorAll(".content .img-wrap__cap").forEach(cap => {
+      const p = cap.closest("p");
+      if (!p) return;
+      const capH = cap.getBoundingClientRect().height;
+      p.style.paddingBottom = Math.ceil((capH - 1) / ch) * ch + ch + "px";
+    });
+  };
+
+  const onSnapped = () => {
+    pending--;
+    if (pending === 0) sizeCaptions();
+  };
+
+  clips.forEach(clip => {
+    const img = clip.querySelector("img");
     const snap = () => {
-      wrap.style.width = "";
-      wrap.style.height = "";
-      // snap width first
+      clip.style.width = "";
+      clip.style.height = "";
       const w = img.getBoundingClientRect().width;
-      wrap.style.width = Math.floor(w / cw) * cw + "px";
-      // image reflows to new width, then snap height
+      clip.style.width = Math.floor(w / cw) * cw + "px";
       const h = img.getBoundingClientRect().height;
-      wrap.style.height = Math.floor(h / ch) * ch + "px";
+      clip.style.height = Math.floor(h / ch) * ch + "px";
+      onSnapped();
     };
+    pending++;
     if (img.complete) snap();
     else img.onload = snap;
-    console.log("Snapped!");
   });
+
+  if (pending === 0) sizeCaptions();
 }
 
 /**
