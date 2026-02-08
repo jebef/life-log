@@ -16,19 +16,22 @@ This post is intended to catalog images and stories from 2025's many work days.
 
 # Guerrero
 ---
-A few minute walk from my spot on Valencia, Guerrero was the first job I was given significant ownership of. My initial visit was 
-in December of 2024, at which point the project was well underway - rebuilding a three-story exterior staircase, commonly found
-on homes all over the City. Homeowners Chris and Kim are close friends of Garritt and his wife Ryan and were lovley clients to 
-work for. 
-
-When I joined on, much of the structural work had already been done. Eventually Garritt and I would replace the uppermost sections 
-of two of the original 6x6 posts, as they were weathered and beginning to rot, but most of my time was spent framing out the stairs, 
-landings, and handrails. 
 
 ![Crafting Table](media/guerrero/workbench.jpeg) 
 
-- ![Garritt's Boot](media/guerrero/boot.jpeg)
-- ![Stairs](media/guerrero/full.jpeg)
+A few minute walk from my spot on Valencia, Guerrero was the first job I was given significant ownership of. My initial visit was 
+in December of 2024, at which point the project was well underway - rebuilding a three-story exterior staircase. Homeowners Chris 
+and Kim are close friends of Garritt and his wife Ryan and were lovley clients to work for. 
+
+When I joined on, much of the structural work was already finished. Garritt and I would eventually replace the uppermost sections 
+of two of the original 6x6 posts, as they were weathered and beginning to rot, but most of my time was spent framing out the stairs, 
+landings, and handrails. 
+
+![Garritt's Boot](media/guerrero/boot.jpeg)
+
+![Stairs](media/guerrero/full.jpeg)
+
+A chocolate chip cookie and cold brew from Arizmendi became a staple of my mornings at Guererro. 
 
 # York 
 ---
