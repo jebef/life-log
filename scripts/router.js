@@ -30,7 +30,7 @@ async function navigate(path) {
   if (handler) {
     await handler();
     snapImages();
-    //renderGrid();
+    renderGrid();
   } else {
     const contentRef = document.querySelector(".content");
     if (contentRef) contentRef.innerHTML = "<p>Page not found.</p>";
